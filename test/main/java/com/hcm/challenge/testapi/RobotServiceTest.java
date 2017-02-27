@@ -13,9 +13,11 @@ import com.hcm.challenge.exceptions.CommandNotExistsException;
 import com.hcm.challenge.exceptions.OutOfWorldException;
 import com.hcm.challenge.serviceimpl.RobotServiceImpl;
 
+//Todo : Usar Arquillian para os testes
 public class RobotServiceTest {
 	
 	private RobotServiceImpl robot = new RobotServiceImpl();
+	
 	private ExpectedException thrown = ExpectedException.none();
 	
 	@Test
