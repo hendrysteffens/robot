@@ -17,6 +17,7 @@ public class RobotEndpoint{
 	@EJB
 	RobotService robot;
 	
+	//Não há necessidade de ser um post.
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("/{command}")
