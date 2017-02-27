@@ -1,4 +1,4 @@
-#SeniorAcessoBackEndChallenge
+#SeniorBackEndChallenge
 
 O objetivo desse desafio é demonstrar sua experiência e conhecimento como
 
