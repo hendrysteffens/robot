@@ -1,4 +1,4 @@
-package com.hcm.challenge.testapi;
+package com.hcm.challenge.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -12,6 +12,7 @@ import com.hcm.challenge.enums.Direction;
 import com.hcm.challenge.exceptions.CommandNotExistsException;
 import com.hcm.challenge.exceptions.OutOfWorldException;
 import com.hcm.challenge.serviceimpl.RobotServiceImpl;
+import com.hcm.challenge.testapi.ExpectedException;
 
 //Todo : Usar Arquillian para os testes
 public class RobotServiceTest {
