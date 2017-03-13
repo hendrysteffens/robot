@@ -78,6 +78,7 @@ public class RobotServiceTest {
 	
 	@Test
 	public void testFinalValues2() {
+		robot.moveOnTheMars("MML");
 		assertEquals(robot.moveOnTheMars("MML"), new Coordinate(0, 2, Direction.WEST)); 
 	}
 	

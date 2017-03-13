@@ -11,10 +11,11 @@ import com.hcm.challenge.service.RobotService;
 @Stateless
 public class RobotServiceImpl implements RobotService{
 
-	private Coordinate coordinate = Coordinate.create();
-	
+	private static Coordinate coordinate = Coordinate.create();
+
 	@Override
-	public Coordinate moveOnTheMars(String command){	
+	public Coordinate moveOnTheMars(String command){
+		coordinate = Coordinate.create();
 		return executeActions(command);
 	}
 	
